@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">deepLearnr — Applied AI and ML</title>
+  <desc id="desc">A dark navy technical banner with restrained cyan and blue network paths, a grid, and the words Applied AI and ML field notes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09101f"/>
+      <stop offset="0.58" stop-color="#101a30"/>
+      <stop offset="1" stop-color="#08111e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f8cff"/>
+      <stop offset="1" stop-color="#35d0c3"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#7890b4" stroke-opacity="0.11" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <path d="M0 258 H1200" stroke="#4f8cff" stroke-opacity=".25"/>
+  <path d="M720 0 V300 M760 0 V300 M800 0 V300 M840 0 V300 M880 0 V300 M920 0 V300 M960 0 V300 M1000 0 V300 M1040 0 V300 M1080 0 V300 M1120 0 V300" stroke="#7890b4" stroke-opacity=".06"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M770 28 H850 V82 H930 V126 H1010 V72 H1090 V28 H1174" stroke="#4f8cff" stroke-width="2" stroke-opacity=".8"/>
+    <path d="M726 178 H820 V220 H910 V176 H988 V226 H1080 V180 H1180" stroke="#35d0c3" stroke-width="2" stroke-opacity=".7"/>
+    <path d="M826 286 V252 H880 V126 H930 V82 H1010 V126 H1090 V180 H1140 V238 H1200" stroke="url(#accent)" stroke-width="2" stroke-opacity=".75"/>
+    <path d="M900 0 V48 H972 V100 H1044 V152 H1120 V204 H1200" stroke="#4f8cff" stroke-width="1.5" stroke-opacity=".5"/>
+    <path d="M700 92 H786 V136 H866 V180 H948" stroke="#35d0c3" stroke-width="1.5" stroke-opacity=".38"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="850" cy="82" r="4" fill="#4f8cff"/>
+    <circle cx="930" cy="126" r="4" fill="#35d0c3"/>
+    <circle cx="1010" cy="72" r="4" fill="#4f8cff"/>
+    <circle cx="820" cy="220" r="4" fill="#35d0c3"/>
+    <circle cx="910" cy="176" r="4" fill="#4f8cff"/>
+    <circle cx="1080" cy="180" r="4" fill="#35d0c3"/>
+    <circle cx="972" cy="100" r="3" fill="#4f8cff"/>
+    <circle cx="1120" cy="204" r="3" fill="#35d0c3"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="72" y="67" font-size="15" letter-spacing="3.4" fill="#35d0c3">FIELD NOTES / 01</text>
+    <text x="68" y="130" font-size="52" font-weight="700" letter-spacing="-1.5" fill="#f3f6fc">deepLearnr</text>
+    <rect x="72" y="151" width="68" height="4" rx="2" fill="url(#accent)"/>
+    <text x="72" y="188" font-size="23" font-weight="600" fill="#dbe7ff">Applied AI &amp; Machine Learning</text>
+    <text x="72" y="220" font-size="16" fill="#9eafca">Build / inspect / test / understand.</text>
+    <text x="72" y="270" font-size="12" letter-spacing="2" fill="#7085a5">GENAI  /  RETRIEVAL  /  DEEP LEARNING  /  EXPERIMENTS</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#5c7295" stroke-opacity=".3"/>
+</svg>
