@@ -1,82 +1,66 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="deepLearnr — Applied AI and Machine Learning" width="100%" />
+  <img src="./field-notes-header.png" alt="deepLearnr — Under the Abstraction: AI systems, local compute, and quantum experiments" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/deepLearnr/rbi-capstone">RBI Saathi</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/deepLearnr/quantum-weather-prediction">Quantum Weather Prediction</a>
-  &nbsp;·&nbsp;
+  <a href="https://github.com/deepLearnr/rbi-capstone">RBI Saathi</a> &nbsp;·&nbsp;
+  <a href="https://github.com/deepLearnr/quantum-weather-prediction">Quantum Weather Prediction</a> &nbsp;·&nbsp;
   <a href="https://rbi-capstone.kalpeshw070.workers.dev/">Live demo</a>
 </p>
 
-```text
-┌─ deepLearnr / field notes
-│  focus    applied AI · retrieval systems · ML experiments
-│  method   build → inspect → test → understand
-└─ status   learning by implementing, measuring, and debugging
-```
+## The part underneath the demo
 
-I'm interested in what sits underneath an AI demo: how data is prepared, why retrieval finds a source, how the backend holds together, and whether a model actually performs.
+I get interested when something works—and then want to know *why* it worked, what it silently assumes, and what makes it fail.
 
-My work currently spans **GenAI application development**, **deep-learning exercises**, and **exploratory quantum ML**. I use AI-assisted development tools, but I want to understand the code, investigate failure cases, and explain the decisions behind a working system—not just get a demo running.
+That tends to pull me below the interface: into retrieval and chunking, API and database boundaries, model behavior, memory limits, and the gap between an experiment that runs and a result that actually means something.
 
----
+I'm moving toward **applied AI / GenAI development**, while going deeper into **machine learning and quantum-computing experiments**. I use AI-assisted coding tools, but I care about being able to trace the code, test the behavior, debug failures, and explain the decisions behind a system.
 
-## Selected work
+## Active lines of investigation
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/deepLearnr/rbi-capstone">01 / RBI Saathi</a></strong><br />
-      <sub>GROUP CAPSTONE · APPLIED GENAI</sub><br /><br />
-      A regulatory-document assistant exploring retrieval-augmented workflows and source traceability for RBI material.<br /><br />
-      <strong>My contribution</strong><br />
-      Backend endpoints, PostgreSQL persistence, document chunks and source metadata, RAG-related work, and integration.<br /><br />
-      <sub>FASTAPI · POSTGRESQL · SQLALCHEMY · ALEMBIC · REACT</sub><br /><br />
-      <a href="https://rbi-capstone.kalpeshw070.workers.dev/">↗ Open live demo</a>
+      <sub>01 / APPLIED GENAI · GROUP CAPSTONE</sub>
+      <h3><a href="https://github.com/deepLearnr/rbi-capstone">RBI Saathi</a></h3>
+      A regulatory-document assistant built around RBI material. My work has focused on backend and data-layer implementation: FastAPI document/chunk endpoints, PostgreSQL persistence, SQLAlchemy/Alembic, source metadata, and RAG-related integration.
+      <br /><br />
+      <a href="https://rbi-capstone.kalpeshw070.workers.dev/">Open the live demo ↗</a>
+      <br /><br />
+      <sub>FASTAPI · POSTGRESQL · DOCUMENT RETRIEVAL · SOURCE TRACEABILITY</sub>
     </td>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/deepLearnr/quantum-weather-prediction">02 / Quantum Weather Prediction</a></strong><br />
-      <sub>ONGOING · RESEARCH & EXPERIMENTS</sub><br /><br />
-      An exploratory project studying quantum-computing approaches in a weather-prediction workflow, including simulation constraints and a modular development setup.<br /><br />
-      <strong>Current emphasis</strong><br />
-      Understanding the methods, testing feasible experiments, and separating implemented work from future plans.<br /><br />
-      <sub>PYTHON · QUANTUM COMPUTING · ML WORKFLOWS</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <strong><a href="https://github.com/deepLearnr/nsdc-ai-assistant">03 / NSDC AI Assistant</a></strong><br />
-      <sub>FORK · KNOWLEDGE-BASED ASSISTANT</sub><br /><br />
-      A forked assistant project for NSDC / Skill India information. I keep this secondary and distinguish my own changes from the upstream project.
+      <sub>02 / QUANTUM COMPUTING · ONGOING</sub>
+      <h3><a href="https://github.com/deepLearnr/quantum-weather-prediction">Quantum Weather Prediction</a></h3>
+      An exploratory attempt to understand where quantum methods might fit in a weather-prediction workflow. I'm studying the methods and working through project structure, local simulation limits, and how to compare experiments meaningfully.
+      <br /><br />
+      This is still in progress; planned approaches are not presented as validated results.
+      <br /><br />
+      <sub>PYTHON · QUANTUM SIMULATION · WEATHER DATA · COMPUTE CONSTRAINTS</sub>
     </td>
   </tr>
 </table>
 
----
+## Experiments, not just labels
 
-## Toolkit
+- **Deep learning:** MNIST, dense-network baselines, rescaling, data augmentation, and training callbacks.
+- **Local AI and systems:** Linux/Fedora, local model tooling, and investigation of hardware and memory constraints.
+- **Backend engineering:** persistent data models, REST endpoints, migrations, tests, and source metadata.
 
-| Area | Technologies and methods |
-|:--|:--|
-| **AI / ML** | Python, machine-learning workflows, deep-learning exercises, TensorFlow / Keras, scikit-learn |
-| **GenAI** | RAG, document ingestion, retrieval, source-grounded responses |
-| **Backend / data** | FastAPI, REST APIs, PostgreSQL, SQLAlchemy, Alembic |
-| **Development** | Git, Linux / Fedora, Docker, testing and debugging |
+## Current toolkit
 
-*This list reflects a mix of hands-on project use and ongoing study; it does not imply equal proficiency in every tool.*
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `TensorFlow / Keras` `scikit-learn` `Git` `Linux / Fedora` `Docker`
 
-## What I'm digging into
+These are tools I've used across projects and study—not a claim that I have equal depth in every one.
 
-- Making retrieval-based applications more traceable and easier to evaluate.
-- Building stronger intuition for deep-learning behavior, training, and evaluation.
-- Exploring what is feasible for quantum-weather experiments under local compute constraints.
-- Getting more independent at reading, debugging, testing, and explaining the code I work with.
+## A note on how I work
+
+I prefer a test, a traceable source, a measured limitation, or a documented failure over a stack of badges. When I don't know how a part works, I want to find the boundary and investigate it.
+
+This profile is a working notebook. I'll add results as the projects produce results worth showing.
 
 ---
 
 <p align="center">
-  <sub>Less demo magic. More understanding of the system.</sub><br />
-  <sub><a href="https://github.com/deepLearnr">Repositories</a> · <a href="https://rbi-capstone.kalpeshw070.workers.dev/">RBI Saathi demo</a></sub>
+  <sub><a href="https://github.com/deepLearnr?tab=repositories">All repositories</a> &nbsp;·&nbsp; <a href="https://rbi-capstone.kalpeshw070.workers.dev/">RBI Saathi demo</a></sub>
 </p>
